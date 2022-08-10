@@ -1,0 +1,67 @@
+#cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#color-palette {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color {
+  display: inline-block;
+  margin-left: 5px;
+  border: 1px solid black;
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+}
+
+#black {
+  background-color: black;
+  float: left;
+  height: 45px;
+  width: 45px;
+}
+
+#red {
+  background-color: red;
+  float: left;
+  height: 45px;
+  width: 45px;
+}
+
+#blue {
+  background-color: blue;
+  float: left;
+  height: 45px;
+  width: 45px;
+}
+
+#green {
+  background-color: green;
+  float: left;
+  height: 45px;
+  width: 45px;
+}
+
+.pixel {
+  display: table-cell;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
+
+.bloco {
+  display: flex;
+  padding-block-start: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
